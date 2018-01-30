@@ -15,6 +15,15 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt-get update
 sudo apt-get install jenkins
 
+sudo apt-get install libc6-armel-cross libc6-dev-armel-cross
+sudo apt-get install binutils-arm-linux-gnueabi
+sudo apt-get install libncurses5-dev
+
+sudo apt-get install gcc-arm-linux-gnueabi
+sudo apt-get install g++-arm-linux-gnueabi
+
+sudo apt-get install gcc-arm-linux-gnueabihf
+sudo apt-get install g++-arm-linux-gnueabihf
 
 sudo dpkg --add-architecture i386
 sudo apt-get install libselinux1:i386
