@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "board.c": "cpp",
+        "i2c.c": "cpp"
+    }
+}
