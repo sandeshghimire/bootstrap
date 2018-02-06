@@ -16,14 +16,16 @@ sudo apt-get install libc6-armel-cross libc6-dev-armel-cross
 sudo apt-get install binutils-arm-linux-gnueabi
 sudo apt-get install libncurses5-dev
 
+sudo dpkg --add-architecture i386
+sudo apt-get install libselinux1:i386
+
 sudo apt-get install gcc-arm-linux-gnueabi
 sudo apt-get install g++-arm-linux-gnueabi
 
 sudo apt-get install gcc-arm-linux-gnueabihf
 sudo apt-get install g++-arm-linux-gnueabihf
 
-sudo dpkg --add-architecture i386
-sudo apt-get install libselinux1:i386
+
 
 sudo apt-get install ncurses-dev:i386 libstdc++6:i386 libselinux1:i386 lib32ncurses5-dev lib32ncurses5 lib32ncursesw5
 sudo apt-get install openssh-server apt-get install net-tools  net-tools  git  vnc*  clang   samba  smba  samba  vim 
@@ -35,4 +37,4 @@ sudo dpkg-reconfigure dash
 
 sudo apt install uuid
 hostname=uuid 
-hostnamectl set-hostname 'embedded-linux-build-server'-$hostname
+hostnamectl set-hostname 'embedded-linux-build-server'-$(hostname)
