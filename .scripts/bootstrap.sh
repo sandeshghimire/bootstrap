@@ -24,5 +24,11 @@ sudo apt-get install g++-arm-linux-gnueabihf
 
 sudo dpkg --add-architecture i386
 sudo apt-get install libselinux1:i386
-sudo dpkg-reconfigure dash
+
 sudo apt-get install ncurses-dev:i386 libstdc++6:i386 libselinux1:i386 lib32ncurses5-dev lib32ncurses5 lib32ncursesw5
+sudo apt-get install openssh-server apt-get install net-tools  net-tools  git  vnc*  clang   samba  smba  samba  vim 
+
+
+sudo dpkg-reconfigure dash
+ git config --global user.name "Sandesh J. Ghimire"
+ git config --global user.email "sandesh@aeva.ai"
