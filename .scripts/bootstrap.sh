@@ -13,10 +13,7 @@ sudo dpkg-reconfigure dash
 git config --global user.name "Sandesh J. Ghimire"
 git config --global user.email "sandesh@aeva.ai"
 hostnamectl set-hostname 'embedded-linux-build-server'
-
 sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python python3 python3-pip python3-pexpect  xz-utils debianutils iputils-ping libsdl1.2-dev xterm
-
-
 curl -k https://storage.googleapis.com/git-repo-downloads/repo > repo
 chmod a+x repo
 sudo mv repo /usr/local/bin 
