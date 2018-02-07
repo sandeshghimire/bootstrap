@@ -38,3 +38,9 @@ sudo dpkg-reconfigure dash
 sudo apt install uuid
 hostname=uuid 
 hostnamectl set-hostname 'embedded-linux-build-server'-$(hostname)
+
+sudo apt-get install zlib1g:i386
+ sudo apt-get install xvfb
+ sudo apt-get  install libssl-dev
+  sudo apt-get install tftp-server
+
