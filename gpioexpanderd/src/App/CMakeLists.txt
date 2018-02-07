@@ -1,5 +1,0 @@
-add_executable(gpioexpanderd gpioexpanderd.cpp)
-target_link_libraries(gpioexpanderd gpioexpander)
-include_directories(../core_i2c)
-include_directories(../gpio_expander)
-install(TARGETS gpioexpanderd RUNTIME DESTINATION bin)
